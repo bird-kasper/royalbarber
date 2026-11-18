@@ -7,7 +7,7 @@
 <meta name="description" content="Royal Barber — precision cuts, ladies cuts, wedding bookings and mobile barbering in Bulawayo. Book in the CBD at Modern Classics Saloon or request a house call. Open 6:00 AM – 8:00 PM, even during power cuts.">
 <link rel="canonical" href="https://example.com/">
 
-<!-- Favicon + touch icon + social share image: all fav.png -->
+<!-- Favicon + touch icon: fav.png -->
 <link rel="icon" href="fav.png" type="image/png">
 <link rel="shortcut icon" href="fav.png" type="image/png">
 <link rel="apple-touch-icon" href="fav.png">
@@ -16,15 +16,22 @@
 <link rel="preconnect" href="https://maps.googleapis.com">
 <link rel="preconnect" href="https://maps.gstatic.com" crossorigin>
 
-<!-- Open Graph (Facebook, WhatsApp, LinkedIn, Telegram, iMessage…) -->
+<!--
+  Open Graph — used by WhatsApp, Facebook, LinkedIn, Telegram, iMessage…
+  IMPORTANT: these MUST be absolute HTTPS URLs. WhatsApp will not render a
+  relative path like "fav.png". Replace https://example.com/ with the real
+  domain once the site is live.
+-->
 <meta property="og:type" content="business.business">
 <meta property="og:site_name" content="Royal Barber">
 <meta property="og:url" content="https://example.com/">
 <meta property="og:title" content="Royal Barber | Barber in Bulawayo CBD &amp; House Calls">
 <meta property="og:description" content="Precision cuts, ladies cuts, wedding bookings and mobile barbering in Bulawayo. Book the chair or a house call on WhatsApp.">
-<meta property="og:image" content="fav.png">
-<meta property="og:image:secure_url" content="fav.png">
+<meta property="og:image" content="https://example.com/fav.png">
+<meta property="og:image:secure_url" content="https://example.com/fav.png">
 <meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="512">
+<meta property="og:image:height" content="512">
 <meta property="og:image:alt" content="Royal Barber — Bulawayo">
 <meta property="og:locale" content="en_ZW">
 
@@ -32,7 +39,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Royal Barber | Barber in Bulawayo">
 <meta name="twitter:description" content="Precision cuts, ladies cuts, wedding bookings and mobile barbering in Bulawayo.">
-<meta name="twitter:image" content="fav.png">
+<meta name="twitter:image" content="https://example.com/fav.png">
 <meta name="twitter:image:alt" content="Royal Barber — Bulawayo">
 
 <meta name="theme-color" content="#0b0a09">
@@ -2582,8 +2589,8 @@ html:not(.intro-playing) .hero-card{
   "@type": "HairSalon",
   "name": "Royal Barber",
   "description": "Expert barber available for bookings in Bulawayo CBD at Modern Classics Saloon, and for house calls across Bulawayo. Precision cuts, ladies cuts, wedding bookings and mobile barbering.",
-  "image": "fav.png",
-  "logo": "fav.png",
+  "image": "https://example.com/fav.png",
+  "logo": "https://example.com/fav.png",
   "telephone": "+263782781481",
   "priceRange": "$",
   "address": {
